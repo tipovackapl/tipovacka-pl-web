@@ -1253,9 +1253,9 @@
           "home": "Livepool",
           "away": "Nottingham",
           "kickoff": "2026-08-29T11:30Z",
-          "completed": false,
-          "homeGoals": null,
-          "awayGoals": null,
+          "completed": true,
+          "homeGoals": 2,
+          "awayGoals": 2,
           "providerId": "401879314"
         },
         {
@@ -1370,7 +1370,7 @@
           ],
           "matchPoints": [
             12,
-            0,
+            4,
             0,
             0,
             0,
@@ -1384,7 +1384,7 @@
             0,
             0
           ],
-          "total": 12,
+          "total": 16,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1410,7 +1410,7 @@
           ],
           "matchPoints": [
             12,
-            0,
+            8,
             0,
             0,
             0,
@@ -1424,7 +1424,7 @@
             0,
             0
           ],
-          "total": 12,
+          "total": 20,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1450,7 +1450,7 @@
           ],
           "matchPoints": [
             12,
-            0,
+            5,
             0,
             0,
             0,
@@ -1464,7 +1464,7 @@
             0,
             0
           ],
-          "total": 12,
+          "total": 17,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1530,7 +1530,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            5,
             0,
             0,
             0,
@@ -1544,7 +1544,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 16,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1570,7 +1570,7 @@
           ],
           "matchPoints": [
             24,
-            0,
+            5,
             0,
             0,
             0,
@@ -1584,7 +1584,7 @@
             0,
             0
           ],
-          "total": 24,
+          "total": 29,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1610,7 +1610,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            4,
             0,
             0,
             0,
@@ -1624,7 +1624,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 15,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1650,7 +1650,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            4,
             0,
             0,
             0,
@@ -1664,7 +1664,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 15,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1690,7 +1690,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            4,
             0,
             0,
             0,
@@ -1704,7 +1704,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 15,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1730,7 +1730,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            5,
             0,
             0,
             0,
@@ -1744,7 +1744,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 16,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1770,7 +1770,7 @@
           ],
           "matchPoints": [
             20,
-            0,
+            5,
             0,
             0,
             0,
@@ -1784,7 +1784,7 @@
             0,
             0
           ],
-          "total": 20,
+          "total": 25,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1850,7 +1850,7 @@
           ],
           "matchPoints": [
             10,
-            0,
+            4,
             0,
             0,
             0,
@@ -1864,7 +1864,7 @@
             0,
             0
           ],
-          "total": 10,
+          "total": 14,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1930,7 +1930,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            5,
             0,
             0,
             0,
@@ -1944,7 +1944,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 16,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1970,7 +1970,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            5,
             0,
             0,
             0,
@@ -1984,7 +1984,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 16,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2010,7 +2010,7 @@
           ],
           "matchPoints": [
             12,
-            0,
+            4,
             0,
             0,
             0,
@@ -2024,7 +2024,7 @@
             0,
             0
           ],
-          "total": 12,
+          "total": 16,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2050,7 +2050,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            4,
             0,
             0,
             0,
@@ -2064,7 +2064,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 15,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2090,7 +2090,7 @@
           ],
           "matchPoints": [
             24,
-            0,
+            4,
             0,
             0,
             0,
@@ -2104,7 +2104,7 @@
             0,
             0
           ],
-          "total": 24,
+          "total": 28,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2130,7 +2130,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            4,
             0,
             0,
             0,
@@ -2144,7 +2144,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 15,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2170,7 +2170,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            4,
             0,
             0,
             0,
@@ -2184,7 +2184,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 15,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2210,7 +2210,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            8,
             0,
             0,
             0,
@@ -2224,7 +2224,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 19,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2290,7 +2290,7 @@
           ],
           "matchPoints": [
             10,
-            0,
+            5,
             0,
             0,
             0,
@@ -2304,7 +2304,7 @@
             0,
             0
           ],
-          "total": 10,
+          "total": 15,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2330,7 +2330,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            5,
             0,
             0,
             0,
@@ -2344,7 +2344,7 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 16,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2410,7 +2410,7 @@
           ],
           "matchPoints": [
             11,
-            0,
+            4,
             0,
             0,
             0,
@@ -2424,13 +2424,13 @@
             0,
             0
           ],
-          "total": 11,
+          "total": 15,
           "exactDouble": 0,
           "roundWinner": false
         }
       ],
       "complete": false,
-      "max": 24
+      "max": 29
     },
     {
       "round": 3,
@@ -45675,9 +45675,18 @@
       "roundWins": 1,
       "exactDoubles": 0,
       "playerPoints": 6,
-      "total": 116,
+      "total": 124,
       "rank": 1,
       "finance": 20000
+    },
+    {
+      "alias": "Bajgi",
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 11,
+      "total": 115,
+      "rank": 2,
+      "finance": 15750
     },
     {
       "alias": "Usťa",
@@ -45685,8 +45694,8 @@
       "exactDoubles": 1,
       "playerPoints": 6.5,
       "total": 114.5,
-      "rank": 2,
-      "finance": 15750
+      "rank": 3,
+      "finance": 12250
     },
     {
       "alias": "Mezňa",
@@ -45694,33 +45703,24 @@
       "exactDoubles": 0,
       "playerPoints": 9.5,
       "total": 113.5,
-      "rank": 3,
-      "finance": 12250
+      "rank": 4,
+      "finance": 9250
     },
     {
       "alias": "Peloš",
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 9.5,
-      "total": 108.5,
-      "rank": 4,
-      "finance": 9250
+      "total": 112.5,
+      "rank": 5,
+      "finance": 6500
     },
     {
       "alias": "Luke",
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 6.5,
-      "total": 107.5,
-      "rank": 5,
-      "finance": 6500
-    },
-    {
-      "alias": "Bajgi",
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 11,
-      "total": 107,
+      "total": 112.5,
       "rank": 6,
       "finance": 3750
     },
@@ -45729,7 +45729,7 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 1,
-      "total": 107,
+      "total": 112,
       "rank": 7,
       "finance": 2500
     },
@@ -45738,7 +45738,7 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 9.5,
-      "total": 106.5,
+      "total": 111.5,
       "rank": 8,
       "finance": 1250
     },
@@ -45747,7 +45747,7 @@
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 4.5,
-      "total": 105.5,
+      "total": 110.5,
       "rank": 9,
       "finance": 0
     },
@@ -45756,7 +45756,7 @@
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 9.5,
-      "total": 104.5,
+      "total": 109.5,
       "rank": 10,
       "finance": -1500
     },
@@ -45765,7 +45765,7 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 6.5,
-      "total": 103.5,
+      "total": 107.5,
       "rank": 11,
       "finance": -1750
     },
@@ -45774,9 +45774,18 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 4.5,
-      "total": 100.5,
+      "total": 105.5,
       "rank": 12,
       "finance": -2000
+    },
+    {
+      "alias": "Dufec",
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 6.5,
+      "total": 101.5,
+      "rank": 13,
+      "finance": -2250
     },
     {
       "alias": "Rommmik26",
@@ -45784,15 +45793,6 @@
       "exactDoubles": 0,
       "playerPoints": 5,
       "total": 100,
-      "rank": 13,
-      "finance": -2250
-    },
-    {
-      "alias": "Dufec",
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 6.5,
-      "total": 97.5,
       "rank": 14,
       "finance": -2500
     },
@@ -45806,47 +45806,47 @@
       "finance": -2750
     },
     {
-      "alias": "Aleš M.",
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 0.5,
-      "total": 91.5,
-      "rank": 16,
-      "finance": -3000
-    },
-    {
       "alias": "Giorgio",
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 1.5,
-      "total": 90.5,
-      "rank": 17,
-      "finance": -3250
+      "total": 95.5,
+      "rank": 16,
+      "finance": -3000
     },
     {
       "alias": "Pelix",
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 6.5,
-      "total": 90.5,
-      "rank": 18,
-      "finance": -3500
+      "total": 94.5,
+      "rank": 17,
+      "finance": -3250
     },
     {
       "alias": "Mráva",
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 4.5,
-      "total": 88.5,
-      "rank": 19,
-      "finance": -3750
+      "total": 93.5,
+      "rank": 18,
+      "finance": -3500
     },
     {
       "alias": "Richi",
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 6,
-      "total": 88,
+      "total": 92,
+      "rank": 19,
+      "finance": -3750
+    },
+    {
+      "alias": "Aleš M.",
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 0.5,
+      "total": 91.5,
       "rank": 20,
       "finance": -4000
     },
@@ -45855,7 +45855,7 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 11,
-      "total": 86,
+      "total": 90,
       "rank": 21,
       "finance": -4250
     },
@@ -45864,7 +45864,7 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 9.5,
-      "total": 81.5,
+      "total": 85.5,
       "rank": 22,
       "finance": -4500
     },
@@ -45873,7 +45873,7 @@
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 6,
-      "total": 80,
+      "total": 84,
       "rank": 23,
       "finance": -4750
     },
@@ -45882,7 +45882,7 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 6,
-      "total": 77,
+      "total": 81,
       "rank": 24,
       "finance": -5000
     },
@@ -45891,7 +45891,7 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 0,
-      "total": 76,
+      "total": 81,
       "rank": 25,
       "finance": -5250
     },
@@ -45900,7 +45900,7 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 6.5,
-      "total": 73.5,
+      "total": 77.5,
       "rank": 26,
       "finance": -5500
     },
@@ -45909,18 +45909,18 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 1,
-      "total": 66,
+      "total": 70,
       "rank": 27,
       "finance": -5750
     }
   ],
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-29T13:22:55.912853+00:00",
-  "fingerprint": "31e202ef4e11f74d6bae6bbb74be3bc3820de8078c959cd5c72e324a1e2fb6f6",
+  "generatedAt": "2026-08-29T13:32:44.908196+00:00",
+  "fingerprint": "3d8414515b83b406f5e2ffbefc6e0f1b312a7107a120749dd931f426ab12267d",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-29T13:22:55.912869+00:00",
+    "lastSuccessfulRunAt": "2026-08-29T13:32:44.908212+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
