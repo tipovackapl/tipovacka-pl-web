@@ -1483,7 +1483,7 @@
             "3:0",
             "1:3"
           ],
-          "doubleIndex": null,
+          "doubleIndex": 8,
           "players": [
             "Mbuemo",
             "Isak"
@@ -1563,13 +1563,13 @@
             "2:0",
             "1:2"
           ],
-          "doubleIndex": null,
+          "doubleIndex": 0,
           "players": [
             "Semenyo",
             "Palmer"
           ],
           "matchPoints": [
-            12,
+            24,
             0,
             0,
             0,
@@ -1584,7 +1584,7 @@
             0,
             0
           ],
-          "total": 12,
+          "total": 24,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1723,7 +1723,7 @@
             "2:1",
             "1:2"
           ],
-          "doubleIndex": null,
+          "doubleIndex": 8,
           "players": [
             "Semenyo",
             "João Pedro"
@@ -1763,13 +1763,13 @@
             "2:1",
             "1:2"
           ],
-          "doubleIndex": null,
+          "doubleIndex": 0,
           "players": [
             "Cherki",
             "Saka"
           ],
           "matchPoints": [
-            10,
+            20,
             0,
             0,
             0,
@@ -1784,7 +1784,7 @@
             0,
             0
           ],
-          "total": 10,
+          "total": 20,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2003,7 +2003,7 @@
             "3:0",
             "1:3"
           ],
-          "doubleIndex": null,
+          "doubleIndex": 8,
           "players": [
             "Joao Pedro",
             "Cunha <Tato zpráva byla upravena>"
@@ -2083,13 +2083,13 @@
             "3:0",
             "0:2"
           ],
-          "doubleIndex": null,
+          "doubleIndex": 0,
           "players": [
             "Semenyo",
             "Joao Pedro"
           ],
           "matchPoints": [
-            12,
+            24,
             0,
             0,
             0,
@@ -2104,7 +2104,7 @@
             0,
             0
           ],
-          "total": 12,
+          "total": 24,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2430,7 +2430,7 @@
         }
       ],
       "complete": false,
-      "max": 12
+      "max": 24
     },
     {
       "round": 3,
@@ -45734,13 +45734,22 @@
       "finance": 2500
     },
     {
+      "alias": "Jayda",
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 9.5,
+      "total": 106.5,
+      "rank": 8,
+      "finance": 1250
+    },
+    {
       "alias": "Maara",
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 4.5,
       "total": 105.5,
-      "rank": 8,
-      "finance": 1250
+      "rank": 9,
+      "finance": 0
     },
     {
       "alias": "RossoNero",
@@ -45748,8 +45757,8 @@
       "exactDoubles": 1,
       "playerPoints": 9.5,
       "total": 104.5,
-      "rank": 9,
-      "finance": 0
+      "rank": 10,
+      "finance": -1500
     },
     {
       "alias": "Závodka",
@@ -45757,8 +45766,17 @@
       "exactDoubles": 0,
       "playerPoints": 6.5,
       "total": 103.5,
-      "rank": 10,
-      "finance": -1500
+      "rank": 11,
+      "finance": -1750
+    },
+    {
+      "alias": "Mudras",
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 4.5,
+      "total": 100.5,
+      "rank": 12,
+      "finance": -2000
     },
     {
       "alias": "Rommmik26",
@@ -45766,8 +45784,17 @@
       "exactDoubles": 0,
       "playerPoints": 5,
       "total": 100,
-      "rank": 11,
-      "finance": -1750
+      "rank": 13,
+      "finance": -2250
+    },
+    {
+      "alias": "Dufec",
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 6.5,
+      "total": 97.5,
+      "rank": 14,
+      "finance": -2500
     },
     {
       "alias": "JR",
@@ -45775,17 +45802,8 @@
       "exactDoubles": 1,
       "playerPoints": 1.5,
       "total": 96.5,
-      "rank": 12,
-      "finance": -2000
-    },
-    {
-      "alias": "Jayda",
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 9.5,
-      "total": 96.5,
-      "rank": 13,
-      "finance": -2250
+      "rank": 15,
+      "finance": -2750
     },
     {
       "alias": "Aleš M.",
@@ -45793,8 +45811,8 @@
       "exactDoubles": 1,
       "playerPoints": 0.5,
       "total": 91.5,
-      "rank": 14,
-      "finance": -2500
+      "rank": 16,
+      "finance": -3000
     },
     {
       "alias": "Giorgio",
@@ -45802,8 +45820,8 @@
       "exactDoubles": 1,
       "playerPoints": 1.5,
       "total": 90.5,
-      "rank": 15,
-      "finance": -2750
+      "rank": 17,
+      "finance": -3250
     },
     {
       "alias": "Pelix",
@@ -45811,8 +45829,8 @@
       "exactDoubles": 0,
       "playerPoints": 6.5,
       "total": 90.5,
-      "rank": 16,
-      "finance": -3000
+      "rank": 18,
+      "finance": -3500
     },
     {
       "alias": "Mráva",
@@ -45820,17 +45838,8 @@
       "exactDoubles": 1,
       "playerPoints": 4.5,
       "total": 88.5,
-      "rank": 17,
-      "finance": -3250
-    },
-    {
-      "alias": "Mudras",
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 4.5,
-      "total": 88.5,
-      "rank": 18,
-      "finance": -3500
+      "rank": 19,
+      "finance": -3750
     },
     {
       "alias": "Richi",
@@ -45838,8 +45847,8 @@
       "exactDoubles": 1,
       "playerPoints": 6,
       "total": 88,
-      "rank": 19,
-      "finance": -3750
+      "rank": 20,
+      "finance": -4000
     },
     {
       "alias": "Pavel",
@@ -45847,15 +45856,6 @@
       "exactDoubles": 0,
       "playerPoints": 11,
       "total": 86,
-      "rank": 20,
-      "finance": -4000
-    },
-    {
-      "alias": "Dufec",
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 6.5,
-      "total": 85.5,
       "rank": 21,
       "finance": -4250
     },
@@ -45916,11 +45916,11 @@
   ],
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-29T13:14:52.147634+00:00",
-  "fingerprint": "57199ce388fa88b8079327efec41e9ec525ba26bb8b01745b73c2b9a3af415c2",
+  "generatedAt": "2026-08-29T13:22:55.912853+00:00",
+  "fingerprint": "31e202ef4e11f74d6bae6bbb74be3bc3820de8078c959cd5c72e324a1e2fb6f6",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-29T13:14:52.147650+00:00",
+    "lastSuccessfulRunAt": "2026-08-29T13:22:55.912869+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
