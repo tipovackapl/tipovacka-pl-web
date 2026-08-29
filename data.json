@@ -525,7 +525,7 @@
           "doubleIndex": 0,
           "players": [
             "beumo",
-            "Cunha <Tato zpráva byla upravena>"
+            "Cunha"
           ],
           "matchPoints": [
             22,
@@ -541,9 +541,9 @@
           ],
           "playerPoints": [
             1,
-            0
+            0.5
           ],
-          "total": 96,
+          "total": 96.5,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -805,7 +805,7 @@
           "doubleIndex": 0,
           "players": [
             "Havertz",
-            "Cunha <Tato zpráva byla upravena>"
+            "Cunha"
           ],
           "matchPoints": [
             30,
@@ -821,9 +821,9 @@
           ],
           "playerPoints": [
             6,
-            0
+            0.5
           ],
-          "total": 68,
+          "total": 68.5,
           "exactDouble": 1,
           "roundWinner": false
         },
@@ -1966,7 +1966,7 @@
           "doubleIndex": 8,
           "players": [
             "Mbeumo",
-            "Joao Pedro <Tato zpráva byla upravena>"
+            "Joao Pedro"
           ],
           "matchPoints": [
             11,
@@ -2006,7 +2006,7 @@
           "doubleIndex": 8,
           "players": [
             "Joao Pedro",
-            "Cunha <Tato zpráva byla upravena>"
+            "Cunha"
           ],
           "matchPoints": [
             12,
@@ -45728,8 +45728,8 @@
       "alias": "Dvorek",
       "roundWins": 0,
       "exactDoubles": 0,
-      "playerPoints": 1,
-      "total": 112,
+      "playerPoints": 1.5,
+      "total": 112.5,
       "rank": 7,
       "finance": 2500
     },
@@ -45872,8 +45872,8 @@
       "alias": "Hasťa",
       "roundWins": 0,
       "exactDoubles": 1,
-      "playerPoints": 6,
-      "total": 84,
+      "playerPoints": 6.5,
+      "total": 84.5,
       "rank": 23,
       "finance": -4750
     },
@@ -45916,11 +45916,11 @@
   ],
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-29T13:39:50.039552+00:00",
-  "fingerprint": "3d8414515b83b406f5e2ffbefc6e0f1b312a7107a120749dd931f426ab12267d",
+  "generatedAt": "2026-08-29T14:01:40.174002+00:00",
+  "fingerprint": "714d4ad038a2ba69d959ae2493e46eec7dbc75f19233d27958538543fa46e2f3",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-29T13:39:50.039564+00:00",
+    "lastSuccessfulRunAt": "2026-08-29T14:01:40.174015+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
