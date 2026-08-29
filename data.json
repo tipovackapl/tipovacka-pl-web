@@ -1242,9 +1242,9 @@
           "home": "Crystal Palace",
           "away": "Manchester City",
           "kickoff": "2026-08-28T19:00Z",
-          "completed": false,
-          "homeGoals": null,
-          "awayGoals": null,
+          "completed": true,
+          "homeGoals": 1,
+          "awayGoals": 4,
           "providerId": "401879294"
         },
         {
@@ -1362,14 +1362,42 @@
         },
         {
           "alias": "Pospec",
-          "imported": false,
-          "tips": null,
-          "doubleIndex": null,
-          "players": null,
-          "matchPoints": [],
-          "playerPoints": [],
-          "total": 0,
-          "exactDouble": null,
+          "imported": true,
+          "tips": [
+            "1:3",
+            "2:0",
+            "1:2",
+            "1:0",
+            "1:1",
+            "3:2",
+            "2:1",
+            "1:0",
+            "2:0",
+            "1:2"
+          ],
+          "doubleIndex": 1,
+          "players": [
+            "Gakpo",
+            "Bruno Fernandes"
+          ],
+          "matchPoints": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "playerPoints": [
+            0,
+            0
+          ],
+          "total": 12,
+          "exactDouble": 0,
           "roundWinner": false
         },
         {
@@ -1441,7 +1469,7 @@
             "Tzolis"
           ],
           "matchPoints": [
-            0,
+            11,
             0,
             0,
             0,
@@ -1456,20 +1484,48 @@
             0,
             0
           ],
-          "total": 0,
+          "total": 11,
           "exactDouble": 0,
           "roundWinner": false
         },
         {
           "alias": "Pavel",
-          "imported": false,
-          "tips": null,
-          "doubleIndex": null,
-          "players": null,
-          "matchPoints": [],
-          "playerPoints": [],
-          "total": 0,
-          "exactDouble": null,
+          "imported": true,
+          "tips": [
+            "1:2",
+            "3:1",
+            "2:1",
+            "1:0",
+            "1:1",
+            "3:1",
+            "2:1",
+            "2:1",
+            "2:1",
+            "0:2"
+          ],
+          "doubleIndex": 1,
+          "players": [
+            "Palmer",
+            "Havertz"
+          ],
+          "matchPoints": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "playerPoints": [
+            0,
+            0
+          ],
+          "total": 11,
+          "exactDouble": 0,
           "roundWinner": false
         },
         {
@@ -1486,14 +1542,42 @@
         },
         {
           "alias": "Dvorek",
-          "imported": false,
-          "tips": null,
+          "imported": true,
+          "tips": [
+            "1:2",
+            "2:1",
+            "1:1",
+            "2:1",
+            "1:2",
+            "2:1",
+            "1:1",
+            "1:2",
+            "2:1",
+            "1:2"
+          ],
           "doubleIndex": null,
-          "players": null,
-          "matchPoints": [],
-          "playerPoints": [],
-          "total": 0,
-          "exactDouble": null,
+          "players": [
+            "Semenyo",
+            "João Pedro"
+          ],
+          "matchPoints": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "playerPoints": [
+            0,
+            0
+          ],
+          "total": 11,
+          "exactDouble": 0,
           "roundWinner": false
         },
         {
@@ -1529,7 +1613,7 @@
             "Bruno Fernandes"
           ],
           "matchPoints": [
-            0,
+            11,
             0,
             0,
             0,
@@ -1544,7 +1628,7 @@
             0,
             0
           ],
-          "total": 0,
+          "total": 11,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1593,7 +1677,7 @@
             "Gakpo"
           ],
           "matchPoints": [
-            0,
+            11,
             0,
             0,
             0,
@@ -1608,7 +1692,7 @@
             0,
             0
           ],
-          "total": 0,
+          "total": 11,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1626,14 +1710,42 @@
         },
         {
           "alias": "Hasťa",
-          "imported": false,
-          "tips": null,
+          "imported": true,
+          "tips": [
+            "1:3",
+            "2:0",
+            "2:1",
+            "1:1",
+            "2:1",
+            "2:1",
+            "2:1",
+            "2:1",
+            "3:0",
+            "1:3"
+          ],
           "doubleIndex": null,
-          "players": null,
-          "matchPoints": [],
-          "playerPoints": [],
-          "total": 0,
-          "exactDouble": null,
+          "players": [
+            "Joao Pedro",
+            "Cunha <Tato zpráva byla upravena>"
+          ],
+          "matchPoints": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "playerPoints": [
+            0,
+            0
+          ],
+          "total": 12,
+          "exactDouble": 0,
           "roundWinner": false
         },
         {
@@ -1657,7 +1769,7 @@
             "Bruno Fernandes"
           ],
           "matchPoints": [
-            0,
+            11,
             0,
             0,
             0,
@@ -1672,7 +1784,7 @@
             0,
             0
           ],
-          "total": 0,
+          "total": 11,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1726,38 +1838,122 @@
         },
         {
           "alias": "Mezňa",
-          "imported": false,
-          "tips": null,
-          "doubleIndex": null,
-          "players": null,
-          "matchPoints": [],
-          "playerPoints": [],
-          "total": 0,
-          "exactDouble": null,
+          "imported": true,
+          "tips": [
+            "1:2",
+            "3:0",
+            "1:0",
+            "2:0",
+            "2:1",
+            "2:1",
+            "1:1",
+            "1:1",
+            "2:0",
+            "0:2"
+          ],
+          "doubleIndex": 1,
+          "players": [
+            "Cunha",
+            "Isak"
+          ],
+          "matchPoints": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "playerPoints": [
+            0,
+            0
+          ],
+          "total": 11,
+          "exactDouble": 0,
           "roundWinner": false
         },
         {
           "alias": "Mráva",
-          "imported": false,
-          "tips": null,
-          "doubleIndex": null,
-          "players": null,
-          "matchPoints": [],
-          "playerPoints": [],
-          "total": 0,
-          "exactDouble": null,
+          "imported": true,
+          "tips": [
+            "0:2",
+            "2:1",
+            "3:1",
+            "1:1",
+            "2:1",
+            "1:1",
+            "1:2",
+            "0:1",
+            "3:0",
+            "2:2"
+          ],
+          "doubleIndex": 8,
+          "players": [
+            "Rayan",
+            "Bruno Fernandes"
+          ],
+          "matchPoints": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "playerPoints": [
+            0,
+            0
+          ],
+          "total": 10,
+          "exactDouble": 0,
           "roundWinner": false
         },
         {
           "alias": "RossoNero",
-          "imported": false,
-          "tips": null,
-          "doubleIndex": null,
-          "players": null,
-          "matchPoints": [],
-          "playerPoints": [],
-          "total": 0,
-          "exactDouble": null,
+          "imported": true,
+          "tips": [
+            "1:2",
+            "2:1",
+            "1:1",
+            "2:1",
+            "2:2",
+            "3:1",
+            "1:1",
+            "1:2",
+            "2:0",
+            "1:2"
+          ],
+          "doubleIndex": 9,
+          "players": [
+            "Joao Pedro",
+            "Bruno Fernandes"
+          ],
+          "matchPoints": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "playerPoints": [
+            0,
+            0
+          ],
+          "total": 11,
+          "exactDouble": 0,
           "roundWinner": false
         },
         {
@@ -1781,7 +1977,7 @@
             "Mbeumo"
           ],
           "matchPoints": [
-            0,
+            10,
             0,
             0,
             0,
@@ -1796,7 +1992,7 @@
             0,
             0
           ],
-          "total": 0,
+          "total": 10,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1821,7 +2017,7 @@
             "Bruno Fernandes"
           ],
           "matchPoints": [
-            0,
+            11,
             0,
             0,
             0,
@@ -1836,7 +2032,7 @@
             0,
             0
           ],
-          "total": 0,
+          "total": 11,
           "exactDouble": 0,
           "roundWinner": false
         }
@@ -17868,10 +18064,45 @@
   "standings": [
     {
       "alias": "Pospec",
-      "total": 104,
+      "total": 116,
       "roundWins": 1,
       "exactDoubles": 0,
       "playerPoints": 6
+    },
+    {
+      "alias": "Mezňa",
+      "total": 113.5,
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 9.5
+    },
+    {
+      "alias": "Peloš",
+      "total": 108.5,
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 9.5
+    },
+    {
+      "alias": "Luke",
+      "total": 107.5,
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 6.5
+    },
+    {
+      "alias": "Dvorek",
+      "total": 107,
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 1
+    },
+    {
+      "alias": "RossoNero",
+      "total": 104.5,
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 9.5
     },
     {
       "alias": "Usťa",
@@ -17881,25 +18112,18 @@
       "playerPoints": 6.5
     },
     {
-      "alias": "Mezňa",
-      "total": 102.5,
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 9.5
-    },
-    {
-      "alias": "Peloš",
-      "total": 97.5,
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 9.5
-    },
-    {
-      "alias": "Luke",
-      "total": 96.5,
+      "alias": "Závodka",
+      "total": 103.5,
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 6.5
+    },
+    {
+      "alias": "JR",
+      "total": 96.5,
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 1.5
     },
     {
       "alias": "Bajgi",
@@ -17909,20 +18133,6 @@
       "playerPoints": 11
     },
     {
-      "alias": "Dvorek",
-      "total": 96,
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 1
-    },
-    {
-      "alias": "RossoNero",
-      "total": 93.5,
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 9.5
-    },
-    {
       "alias": "Maara",
       "total": 93.5,
       "roundWins": 0,
@@ -17930,11 +18140,11 @@
       "playerPoints": 4.5
     },
     {
-      "alias": "Závodka",
-      "total": 92.5,
+      "alias": "Aleš M.",
+      "total": 91.5,
       "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 6.5
+      "exactDoubles": 1,
+      "playerPoints": 0.5
     },
     {
       "alias": "Rommmik26",
@@ -17944,6 +18154,13 @@
       "playerPoints": 5
     },
     {
+      "alias": "Mráva",
+      "total": 88.5,
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 4.5
+    },
+    {
       "alias": "Jayda",
       "total": 86.5,
       "roundWins": 0,
@@ -17951,18 +18168,18 @@
       "playerPoints": 9.5
     },
     {
-      "alias": "JR",
-      "total": 85.5,
+      "alias": "Pavel",
+      "total": 86,
       "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 1.5
+      "exactDoubles": 0,
+      "playerPoints": 11
     },
     {
-      "alias": "Aleš M.",
-      "total": 81.5,
+      "alias": "Hasťa",
+      "total": 80,
       "roundWins": 0,
       "exactDoubles": 1,
-      "playerPoints": 0.5
+      "playerPoints": 6
     },
     {
       "alias": "Giorgio",
@@ -17979,13 +18196,6 @@
       "playerPoints": 6.5
     },
     {
-      "alias": "Mráva",
-      "total": 78.5,
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 4.5
-    },
-    {
       "alias": "Richi",
       "total": 77,
       "roundWins": 0,
@@ -17998,13 +18208,6 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 4.5
-    },
-    {
-      "alias": "Pavel",
-      "total": 75,
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 11
     },
     {
       "alias": "Dufec",
@@ -18021,18 +18224,18 @@
       "playerPoints": 9.5
     },
     {
-      "alias": "Hasťa",
-      "total": 68,
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 6
-    },
-    {
       "alias": "Dominick Z.",
       "total": 66,
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 6
+    },
+    {
+      "alias": "Škardis",
+      "total": 66,
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 1
     },
     {
       "alias": "Grubis",
@@ -18047,16 +18250,9 @@
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 6.5
-    },
-    {
-      "alias": "Škardis",
-      "total": 55,
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 1
     }
   ],
   "missingRound1": [],
-  "generatedAt": "2026-08-28T17:11:31.239Z",
-  "fingerprint": "bcbbd078b7f0583c515017c875c18c257691fe0252fc7673ab5579c51e9de664"
+  "generatedAt": "2026-08-29T07:19:23.616Z",
+  "fingerprint": "494994b32a17a3819ae2a44362ba125a31c595d6875e2a0fe85edd0ef329c440"
 }
