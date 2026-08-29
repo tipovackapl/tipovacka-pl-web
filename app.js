@@ -10,9 +10,10 @@ const money = (value) => Number(value || 0).toLocaleString("cs-CZ") + " Kč";
 
 function renderStandings() {
   return data.standings.map((entry, index) => {
-    const amount = finance[index] ?? 0;
+    const amount = entry.finance ?? finance[index] ?? 0;
+    const rank = entry.rank ?? index + 1;
     return `<tr>
-      <td><span class="rank-badge">${index + 1}.</span></td>
+      <td><span class="rank-badge">${rank}.</span></td>
       <th>${escapeHtml(entry.alias)}</th>
       <td class="points-strong">${formatPoints(entry.total)}</td>
       <td>${formatPoints(entry.playerPoints)}</td>
@@ -20,6 +21,27 @@ function renderStandings() {
       <td class="${amount >= 0 ? "money-plus" : "money-minus"}">${money(amount)}</td>
     </tr>`;
   }).join("");
+}
+
+function healthStatus() {
+  const lastSuccess = data.health?.lastSuccessfulRunAt ? new Date(data.health.lastSuccessfulRunAt) : null;
+  if (!lastSuccess || Number.isNaN(lastSuccess.getTime())) {
+    return {stale:true, text:"Stav automatizace není v této verzi dat dostupný."};
+  }
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-GB", {
+    timeZone:"Europe/Prague", weekday:"short", hour:"2-digit", hour12:false
+  }).formatToParts(new Date()).filter(item => item.type !== "literal").map(item => [item.type, item.value]));
+  const weekend = ["Fri","Sat","Sun"].includes(parts.weekday);
+  const hour = Number(parts.hour);
+  const active = hour >= 8 && hour < 23;
+  const ageMinutes = (Date.now() - lastSuccess.getTime()) / 60000;
+  const stale = active && ageMinutes > (weekend ? 100 : 190);
+  return {
+    stale,
+    text: stale
+      ? `Poslední úspěšná kontrola proběhla ${lastSuccess.toLocaleString("cs-CZ", {dateStyle:"medium", timeStyle:"short"})}. Data mohou být zastaralá.`
+      : `Automatizace v pořádku • poslední kontrola ${lastSuccess.toLocaleString("cs-CZ", {dateStyle:"medium", timeStyle:"short"})}`,
+  };
 }
 
 function cellRows(roundData, aliases) {
@@ -74,6 +96,7 @@ function render() {
   const roundOptions = data.rounds.map(item => `<option value="${item.round}">${item.round}. kolo</option>`).join("");
   const playerOptions = data.participants.map(alias => `<option value="${escapeHtml(alias)}">${escapeHtml(alias)}</option>`).join("");
   const missing = data.missingRound1.length ? `<strong>Předběžné pořadí.</strong> Chybí kompletní tipy hráčů ${escapeHtml(data.missingRound1.join(", "))}.` : `<strong>První kolo je kompletní.</strong> Načteny jsou tipy všech ${data.participants.length} hráčů.`;
+  const health = healthStatus();
 
   document.getElementById("app").innerHTML = `
     <header class="hero"><div class="hero__inner">
@@ -81,10 +104,11 @@ function render() {
       <p class="hero__copy">Stejná společná tabulka, jen pohodlněji. Tipy se spojují z WhatsAppu i excelových příloh poslaných e-mailem.</p>
       <div class="hero__stats" aria-label="Stav soutěže"><div><span>1.</span><strong>${escapeHtml(data.standings[0]?.alias || "—")}</strong><small>${data.standings[0] ? `${formatPoints(data.standings[0].total)} bodu` : "čekáme na tipy"}</small></div><div><span>${round1Count}/${data.participants.length}</span><strong>tipů načteno</strong><small>1. kolo</small></div><div><span>${round2Count}/${data.participants.length}</span><strong>tipů přijato</strong><small>2. kolo</small></div></div>
     </div></header>
+    <section class="system-status ${health.stale ? "system-status--warning" : "system-status--ok"}" aria-live="polite"><i></i><strong>${escapeHtml(health.text)}</strong>${data.health?.whatsappFile ? `<span>WhatsApp: ${escapeHtml(data.health.whatsappFile)} • ${Number(data.health.whatsappEvents || 0)} událostí</span>` : ""}</section>
     <section class="notice" aria-label="Stav importu">${missing}</section>
     <section class="section standings-section"><div class="section__heading"><div><p class="eyebrow dark">Po ${completedRounds}. kole</p><h2>Průběžné pořadí</h2></div><span class="status-pill"><i></i>${completedRounds * 10} zápasů uzavřeno</span></div><div class="podium">${podium}</div><div class="standings-table-wrap"><table class="standings-table"><thead><tr><th>Pořadí</th><th>Hráč</th><th>Body</th><th>Hráči</th><th>Přesný DOUBLE</th><th>Finance</th></tr></thead><tbody>${renderStandings()}</tbody></table></div></section>
     <section class="sheet-section" id="tabulka"><div class="sheet-toolbar"><div><p class="eyebrow">Společná tabulka</p><h2>Tipy a body</h2></div><div class="round-switch"><label for="round">Kolo</label><select id="round">${roundOptions}</select></div></div><div class="focus-control"><label for="focus">Zobrazit</label><select id="focus"><option value="všichni">Všechny hráče</option>${playerOptions}</select><span class="scroll-hint">Tabulku lze posouvat do stran →</span></div><div class="sheet-wrap">${renderSheet()}</div><div class="legend"><span><i class="legend__double"></i> DOUBLE</span><span><i class="legend__result"></i> konečný výsledek</span><span><i class="legend__missing"></i> tip v exportu chybí</span></div></section>
-    <footer><p><strong>Tipovačka PL 2026/27</strong> • aktualizováno ${escapeHtml(updatedAt)}</p><p>Výsledky, výkopy a hráčské události se načítají automaticky; zdrojem výsledků je ${escapeHtml(data.provider)}.</p></footer>`;
+    <footer><p><strong>Tipovačka PL 2026/27</strong> • data změněna ${escapeHtml(updatedAt)}</p><p>Jediným masterem je soukromá Google tabulka. Fotbalová data: ${escapeHtml(data.provider)}.</p></footer>`;
   document.getElementById("round").value = String(selectedRound);
   document.getElementById("round").addEventListener("change", event => { selectedRound = Number(event.target.value); updateSheet(); });
   document.getElementById("focus").addEventListener("change", event => { selectedPlayer = event.target.value; updateSheet(); });
@@ -94,4 +118,3 @@ fetch("data.json", {cache:"no-store"})
   .then(response => { if (!response.ok) throw new Error("Data nejsou dostupná"); return response.json(); })
   .then(payload => { data = payload; selectedRound = data.rounds.find(item => !item.complete)?.round || data.rounds.at(-1)?.round || 1; render(); })
   .catch(() => { document.getElementById("app").innerHTML = '<div class="error"><strong>Aktuální výsledky se nepodařilo načíst.</strong><br>Zkuste stránku za chvíli obnovit.</div>'; });
-
