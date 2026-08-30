@@ -1813,6 +1813,14 @@
               "minute": "35'",
               "ownGoal": false,
               "penalty": false
+            },
+            {
+              "team": "Brighton & Hove Albion",
+              "scorer": "João Pedro",
+              "assist": "",
+              "minute": "63'",
+              "ownGoal": true,
+              "penalty": false
             }
           ],
           "providerId": "401879317"
@@ -1851,7 +1859,16 @@
           "awayGoals": null,
           "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
           "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-          "goals": [],
+          "goals": [
+            {
+              "team": "Sunderland",
+              "scorer": "Wilson Isidor",
+              "assist": "Habib Diarra",
+              "minute": "75'",
+              "ownGoal": false,
+              "penalty": false
+            }
+          ],
           "providerId": "401879313"
         },
         {
@@ -51538,11 +51555,11 @@
   },
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T14:05:00.717308+00:00",
-  "fingerprint": "bb907d69b190c8530ae426ae92ea046b086d6f29ebbd9d1661919740fa094677",
+  "generatedAt": "2026-08-30T14:34:47.538857+00:00",
+  "fingerprint": "7962a236e0be3215bdf919ec6d8681592679b8624da51f9ae5a4db8c0ed5009c",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T14:05:00.717324+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T14:34:47.538870+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
