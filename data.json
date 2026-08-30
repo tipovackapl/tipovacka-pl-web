@@ -981,9 +981,9 @@
           ],
           "playerPoints": [
             6,
-            0
+            0.5
           ],
-          "total": 66,
+          "total": 66.5,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -45680,13 +45680,22 @@
       "finance": 20000
     },
     {
+      "alias": "Pospec",
+      "roundWins": 1,
+      "exactDoubles": 0,
+      "playerPoints": 10,
+      "total": 135,
+      "rank": 2,
+      "finance": 15750
+    },
+    {
       "alias": "Mudras",
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 4.5,
       "total": 133.5,
-      "rank": 2,
-      "finance": 15750
+      "rank": 3,
+      "finance": 12250
     },
     {
       "alias": "Bajgi",
@@ -45694,17 +45703,17 @@
       "exactDoubles": 1,
       "playerPoints": 11,
       "total": 132,
-      "rank": 3,
-      "finance": 12250
-    },
-    {
-      "alias": "Pospec",
-      "roundWins": 1,
-      "exactDoubles": 0,
-      "playerPoints": 6,
-      "total": 131,
       "rank": 4,
       "finance": 9250
+    },
+    {
+      "alias": "Usťa",
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 10,
+      "total": 132,
+      "rank": 5,
+      "finance": 6500
     },
     {
       "alias": "Aleš M.",
@@ -45712,8 +45721,8 @@
       "exactDoubles": 1,
       "playerPoints": 0.5,
       "total": 129.5,
-      "rank": 5,
-      "finance": 6500
+      "rank": 6,
+      "finance": 3750
     },
     {
       "alias": "Závodka",
@@ -45721,23 +45730,14 @@
       "exactDoubles": 0,
       "playerPoints": 6.5,
       "total": 129.5,
-      "rank": 6,
-      "finance": 3750
+      "rank": 7,
+      "finance": 2500
     },
     {
       "alias": "RossoNero",
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 9.5,
-      "total": 128.5,
-      "rank": 7,
-      "finance": 2500
-    },
-    {
-      "alias": "Usťa",
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 6.5,
       "total": 128.5,
       "rank": 8,
       "finance": 1250
@@ -45764,10 +45764,19 @@
       "alias": "Luke",
       "roundWins": 0,
       "exactDoubles": 0,
-      "playerPoints": 6.5,
-      "total": 124.5,
+      "playerPoints": 8.5,
+      "total": 126.5,
       "rank": 11,
       "finance": -1750
+    },
+    {
+      "alias": "Mezňa",
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 13,
+      "total": 122,
+      "rank": 12,
+      "finance": -2000
     },
     {
       "alias": "Pelix",
@@ -45775,15 +45784,6 @@
       "exactDoubles": 0,
       "playerPoints": 6.5,
       "total": 121.5,
-      "rank": 12,
-      "finance": -2000
-    },
-    {
-      "alias": "Mezňa",
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 9.5,
-      "total": 118.5,
       "rank": 13,
       "finance": -2250
     },
@@ -45809,8 +45809,8 @@
       "alias": "Andy",
       "roundWins": 0,
       "exactDoubles": 0,
-      "playerPoints": 9.5,
-      "total": 113.5,
+      "playerPoints": 10,
+      "total": 114,
       "rank": 16,
       "finance": -3000
     },
@@ -45824,22 +45824,31 @@
       "finance": -3250
     },
     {
+      "alias": "Dominick Z.",
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 12.5,
+      "total": 108.5,
+      "rank": 18,
+      "finance": -3500
+    },
+    {
       "alias": "Giorgio",
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 1.5,
       "total": 107.5,
-      "rank": 18,
-      "finance": -3500
+      "rank": 19,
+      "finance": -3750
     },
     {
       "alias": "Kašpec",
       "roundWins": 0,
       "exactDoubles": 0,
-      "playerPoints": 6.5,
-      "total": 105.5,
-      "rank": 19,
-      "finance": -3750
+      "playerPoints": 8.5,
+      "total": 107.5,
+      "rank": 20,
+      "finance": -4000
     },
     {
       "alias": "Rommmik26",
@@ -45847,15 +45856,6 @@
       "exactDoubles": 0,
       "playerPoints": 5,
       "total": 105,
-      "rank": 20,
-      "finance": -4000
-    },
-    {
-      "alias": "Grubis",
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 0,
-      "total": 103,
       "rank": 21,
       "finance": -4250
     },
@@ -45863,17 +45863,17 @@
       "alias": "Mráva",
       "roundWins": 0,
       "exactDoubles": 1,
-      "playerPoints": 4.5,
-      "total": 102.5,
+      "playerPoints": 5.5,
+      "total": 103.5,
       "rank": 22,
       "finance": -4500
     },
     {
-      "alias": "Dominick Z.",
+      "alias": "Grubis",
       "roundWins": 0,
       "exactDoubles": 0,
-      "playerPoints": 6,
-      "total": 102,
+      "playerPoints": 0,
+      "total": 103,
       "rank": 23,
       "finance": -4750
     },
@@ -45916,11 +45916,11 @@
   ],
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-29T20:34:44.855308+00:00",
-  "fingerprint": "c1a1fa7179dfe130633552d3c2b830cacd15a79bc68e2fec3c9ec3e9929c73fc",
+  "generatedAt": "2026-08-30T05:24:49.333202+00:00",
+  "fingerprint": "d007967a7fefbf363307c0721bc24f45c23bd88ca205051f229addb604d5d625",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-29T20:34:44.855322+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T05:24:49.333212+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
