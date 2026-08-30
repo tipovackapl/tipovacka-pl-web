@@ -1382,9 +1382,9 @@
           ],
           "playerPoints": [
             0,
-            0
+            0.5
           ],
-          "total": 44,
+          "total": 44.5,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1421,10 +1421,10 @@
             0
           ],
           "playerPoints": [
-            0,
+            4,
             0
           ],
-          "total": 27,
+          "total": 31,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1502,9 +1502,9 @@
           ],
           "playerPoints": [
             0,
-            0
+            3.5
           ],
-          "total": 25,
+          "total": 28.5,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1862,9 +1862,9 @@
           ],
           "playerPoints": [
             0,
-            0
+            2
           ],
-          "total": 42,
+          "total": 44,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -1942,9 +1942,9 @@
           ],
           "playerPoints": [
             0,
-            0
+            2
           ],
-          "total": 28,
+          "total": 30,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2181,10 +2181,10 @@
             0
           ],
           "playerPoints": [
-            0,
+            6,
             0
           ],
-          "total": 36,
+          "total": 42,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2262,9 +2262,9 @@
           ],
           "playerPoints": [
             0,
-            0
+            3.5
           ],
-          "total": 16,
+          "total": 19.5,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2301,10 +2301,10 @@
             0
           ],
           "playerPoints": [
-            0,
+            1,
             0
           ],
-          "total": 24,
+          "total": 25,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -45916,11 +45916,11 @@
   ],
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T05:24:49.333202+00:00",
-  "fingerprint": "d007967a7fefbf363307c0721bc24f45c23bd88ca205051f229addb604d5d625",
+  "generatedAt": "2026-08-30T05:36:34.612857+00:00",
+  "fingerprint": "361b733fb629f87dd42ad01ff107fdb11884630747f9006b77c5b3655bbaff9f",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T05:24:49.333212+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T05:36:34.612870+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
