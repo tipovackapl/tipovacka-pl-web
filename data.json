@@ -51459,7 +51459,7 @@
       "playerPoints": 6.5,
       "total": 168.5,
       "rank": 9,
-      "finance": 0
+      "finance": -1500
     },
     {
       "alias": "Grubis",
@@ -51468,7 +51468,7 @@
       "playerPoints": 8,
       "total": 167,
       "rank": 10,
-      "finance": -1500
+      "finance": -1750
     },
     {
       "alias": "Luke",
@@ -51477,7 +51477,7 @@
       "playerPoints": 13.5,
       "total": 165.5,
       "rank": 11,
-      "finance": -1750
+      "finance": -2000
     },
     {
       "alias": "Mezňa",
@@ -51486,7 +51486,7 @@
       "playerPoints": 17,
       "total": 163,
       "rank": 12,
-      "finance": -2000
+      "finance": -2250
     },
     {
       "alias": "Giorgio",
@@ -51495,7 +51495,7 @@
       "playerPoints": 8.5,
       "total": 161.5,
       "rank": 13,
-      "finance": -2250
+      "finance": -2500
     },
     {
       "alias": "Závodka",
@@ -51504,7 +51504,7 @@
       "playerPoints": 13.5,
       "total": 160.5,
       "rank": 14,
-      "finance": -2500
+      "finance": -2750
     },
     {
       "alias": "Jayda",
@@ -51513,7 +51513,7 @@
       "playerPoints": 9.5,
       "total": 156.5,
       "rank": 15,
-      "finance": -2750
+      "finance": -3000
     },
     {
       "alias": "Andy",
@@ -51522,7 +51522,7 @@
       "playerPoints": 17,
       "total": 156,
       "rank": 16,
-      "finance": -3000
+      "finance": -3250
     },
     {
       "alias": "Aleš M.",
@@ -51531,7 +51531,7 @@
       "playerPoints": 3.5,
       "total": 152.5,
       "rank": 17,
-      "finance": -3250
+      "finance": -3500
     },
     {
       "alias": "Dufec",
@@ -51540,7 +51540,7 @@
       "playerPoints": 9.5,
       "total": 148.5,
       "rank": 18,
-      "finance": -3500
+      "finance": -3750
     },
     {
       "alias": "JR",
@@ -51549,7 +51549,7 @@
       "playerPoints": 17,
       "total": 147,
       "rank": 19,
-      "finance": -3750
+      "finance": -4000
     },
     {
       "alias": "Hasťa",
@@ -51558,7 +51558,7 @@
       "playerPoints": 15.5,
       "total": 146.5,
       "rank": 20,
-      "finance": -4000
+      "finance": -4250
     },
     {
       "alias": "Rommmik26",
@@ -51567,7 +51567,7 @@
       "playerPoints": 8.5,
       "total": 142.5,
       "rank": 21,
-      "finance": -4250
+      "finance": -4500
     },
     {
       "alias": "Pavel",
@@ -51576,7 +51576,7 @@
       "playerPoints": 17,
       "total": 138,
       "rank": 22,
-      "finance": -4500
+      "finance": -4750
     },
     {
       "alias": "Mráva",
@@ -51585,7 +51585,7 @@
       "playerPoints": 15,
       "total": 136,
       "rank": 23,
-      "finance": -4750
+      "finance": -5000
     },
     {
       "alias": "Richi",
@@ -51594,7 +51594,7 @@
       "playerPoints": 13,
       "total": 135,
       "rank": 24,
-      "finance": -5000
+      "finance": -5250
     },
     {
       "alias": "Dominick Z.",
@@ -51603,7 +51603,7 @@
       "playerPoints": 12.5,
       "total": 132.5,
       "rank": 25,
-      "finance": -5250
+      "finance": -5500
     },
     {
       "alias": "Škardis",
@@ -51612,7 +51612,7 @@
       "playerPoints": 17.5,
       "total": 130.5,
       "rank": 26,
-      "finance": -5500
+      "finance": -5750
     },
     {
       "alias": "Kašpec",
@@ -51621,7 +51621,7 @@
       "playerPoints": 8.5,
       "total": 126.5,
       "rank": 27,
-      "finance": -5750
+      "finance": -6000
     }
   ],
   "news": {
@@ -51636,11 +51636,11 @@
   },
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T18:06:39.057126+00:00",
-  "fingerprint": "d3175a9e7b821fbd5fe85db8bf173e7f13370fe37150a3ffdcef34f2bd2b0bc8",
+  "generatedAt": "2026-08-30T18:21:48.317665+00:00",
+  "fingerprint": "6d63ef732970fef3d0c19976d806ab6077d2457ccba653b9d1ec96c4a04c5a2b",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T18:06:39.057137+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T18:21:48.317675+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
