@@ -1805,6 +1805,14 @@
               "minute": "32'",
               "ownGoal": false,
               "penalty": false
+            },
+            {
+              "team": "Brighton & Hove Albion",
+              "scorer": "Malick Yalcouyé",
+              "assist": "",
+              "minute": "35'",
+              "ownGoal": false,
+              "penalty": false
             }
           ],
           "providerId": "401879317"
@@ -1820,7 +1828,16 @@
           "awayGoals": null,
           "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
           "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-          "goals": [],
+          "goals": [
+            {
+              "team": "Brentford",
+              "scorer": "Kevin Schade",
+              "assist": "Keane Lewis-Potter",
+              "minute": "41'",
+              "ownGoal": false,
+              "penalty": false
+            }
+          ],
           "providerId": "401879315"
         },
         {
@@ -51521,11 +51538,11 @@
   },
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T13:34:58.547705+00:00",
-  "fingerprint": "085c5a600e54956d0c800b4113e5243474a0d22faf942ed28049a10d361f92c4",
+  "generatedAt": "2026-08-30T14:05:00.717308+00:00",
+  "fingerprint": "bb907d69b190c8530ae426ae92ea046b086d6f29ebbd9d1661919740fa094677",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T13:34:58.547715+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T14:05:00.717324+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
