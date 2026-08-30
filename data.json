@@ -1781,7 +1781,32 @@
           "awayGoals": null,
           "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
           "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-          "goals": [],
+          "goals": [
+            {
+              "team": "Chelsea",
+              "scorer": "Romeo Lavia",
+              "assist": "",
+              "minute": "4'",
+              "ownGoal": false,
+              "penalty": false
+            },
+            {
+              "team": "Chelsea",
+              "scorer": "Pedro Neto",
+              "assist": "Morgan Rogers",
+              "minute": "14'",
+              "ownGoal": false,
+              "penalty": false
+            },
+            {
+              "team": "Chelsea",
+              "scorer": "João Pedro",
+              "assist": "Jorrel Hato",
+              "minute": "32'",
+              "ownGoal": false,
+              "penalty": false
+            }
+          ],
           "providerId": "401879317"
         },
         {
@@ -51496,11 +51521,11 @@
   },
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T12:36:41.069548+00:00",
-  "fingerprint": "bfa7b2d9e9a6c3599021e7fa5b342a5688d667b77db361325e3ed6fb2fdee543",
+  "generatedAt": "2026-08-30T13:34:58.547705+00:00",
+  "fingerprint": "085c5a600e54956d0c800b4113e5243474a0d22faf942ed28049a10d361f92c4",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T12:36:41.069561+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T13:34:58.547715+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
