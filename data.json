@@ -1635,7 +1635,48 @@
           "awayGoals": 4,
           "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
           "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-          "goals": [],
+          "goals": [
+            {
+              "team": "Manchester City",
+              "scorer": "Erling Haaland",
+              "assist": "Antoine Semenyo",
+              "minute": "17'",
+              "ownGoal": false,
+              "penalty": false
+            },
+            {
+              "team": "Manchester City",
+              "scorer": "Rayan Cherki",
+              "assist": "Phil Foden",
+              "minute": "54'",
+              "ownGoal": false,
+              "penalty": false
+            },
+            {
+              "team": "Crystal Palace",
+              "scorer": "Gianluigi Donnarumma",
+              "assist": "",
+              "minute": "56'",
+              "ownGoal": true,
+              "penalty": false
+            },
+            {
+              "team": "Manchester City",
+              "scorer": "Rayan Cherki",
+              "assist": "Josko Gvardiol",
+              "minute": "59'",
+              "ownGoal": false,
+              "penalty": false
+            },
+            {
+              "team": "Manchester City",
+              "scorer": "Erling Haaland",
+              "assist": "Phil Foden",
+              "minute": "84'",
+              "ownGoal": false,
+              "penalty": false
+            }
+          ],
           "providerId": "401879294"
         },
         {
@@ -2235,14 +2276,14 @@
             0
           ],
           "playerPoints": [
-            0,
+            4,
             3.5
           ],
           "playerCompleted": [
-            false,
+            true,
             true
           ],
-          "total": 97.5,
+          "total": 101.5,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2411,14 +2452,14 @@
             0
           ],
           "playerPoints": [
-            0,
+            4,
             3
           ],
           "playerCompleted": [
-            false,
+            true,
             true
           ],
-          "total": 88,
+          "total": 92,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2455,14 +2496,14 @@
             0
           ],
           "playerPoints": [
-            0,
+            10,
             0
           ],
           "playerCompleted": [
-            false,
+            true,
             false
           ],
-          "total": 70,
+          "total": 80,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2587,14 +2628,14 @@
             0
           ],
           "playerPoints": [
-            0,
+            10,
             3.5
           ],
           "playerCompleted": [
-            false,
+            true,
             true
           ],
-          "total": 53.5,
+          "total": 63.5,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2807,14 +2848,14 @@
             0
           ],
           "playerPoints": [
-            0,
+            4,
             3
           ],
           "playerCompleted": [
-            false,
+            true,
             true
           ],
-          "total": 75,
+          "total": 79,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -2939,14 +2980,14 @@
             0
           ],
           "playerPoints": [
-            0,
+            4,
             9.5
           ],
           "playerCompleted": [
-            false,
+            true,
             true
           ],
-          "total": 76.5,
+          "total": 80.5,
           "exactDouble": 0,
           "roundWinner": false
         },
@@ -51381,20 +51422,20 @@
   ],
   "standings": [
     {
+      "alias": "Dvorek",
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 8.5,
+      "total": 188.5,
+      "rank": 1,
+      "finance": 20000
+    },
+    {
       "alias": "Usťa",
       "roundWins": 0,
       "exactDoubles": 1,
       "playerPoints": 15,
       "total": 187.5,
-      "rank": 1,
-      "finance": 20000
-    },
-    {
-      "alias": "Dvorek",
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 4.5,
-      "total": 184.5,
       "rank": 2,
       "finance": 15750
     },
@@ -51429,10 +51470,19 @@
       "alias": "Mudras",
       "roundWins": 0,
       "exactDoubles": 0,
-      "playerPoints": 8,
-      "total": 174,
+      "playerPoints": 12,
+      "total": 178,
       "rank": 6,
       "finance": 3750
+    },
+    {
+      "alias": "Bajgi",
+      "roundWins": 0,
+      "exactDoubles": 1,
+      "playerPoints": 24.5,
+      "total": 176.5,
+      "rank": 7,
+      "finance": 2500
     },
     {
       "alias": "Pelix",
@@ -51440,15 +51490,6 @@
       "exactDoubles": 0,
       "playerPoints": 9.5,
       "total": 173.5,
-      "rank": 7,
-      "finance": 2500
-    },
-    {
-      "alias": "Bajgi",
-      "roundWins": 0,
-      "exactDoubles": 1,
-      "playerPoints": 20.5,
-      "total": 172.5,
       "rank": 8,
       "finance": 1250
     },
@@ -51471,13 +51512,22 @@
       "finance": -1750
     },
     {
+      "alias": "Jayda",
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 19.5,
+      "total": 166.5,
+      "rank": 11,
+      "finance": -2000
+    },
+    {
       "alias": "Luke",
       "roundWins": 0,
       "exactDoubles": 0,
       "playerPoints": 13.5,
       "total": 165.5,
-      "rank": 11,
-      "finance": -2000
+      "rank": 12,
+      "finance": -2250
     },
     {
       "alias": "Mezňa",
@@ -51485,8 +51535,8 @@
       "exactDoubles": 0,
       "playerPoints": 17,
       "total": 163,
-      "rank": 12,
-      "finance": -2250
+      "rank": 13,
+      "finance": -2500
     },
     {
       "alias": "Giorgio",
@@ -51494,8 +51544,8 @@
       "exactDoubles": 1,
       "playerPoints": 8.5,
       "total": 161.5,
-      "rank": 13,
-      "finance": -2500
+      "rank": 14,
+      "finance": -2750
     },
     {
       "alias": "Závodka",
@@ -51503,15 +51553,6 @@
       "exactDoubles": 0,
       "playerPoints": 13.5,
       "total": 160.5,
-      "rank": 14,
-      "finance": -2750
-    },
-    {
-      "alias": "Jayda",
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 9.5,
-      "total": 156.5,
       "rank": 15,
       "finance": -3000
     },
@@ -51525,22 +51566,31 @@
       "finance": -3250
     },
     {
-      "alias": "Aleš M.",
+      "alias": "Dufec",
       "roundWins": 0,
       "exactDoubles": 1,
-      "playerPoints": 3.5,
+      "playerPoints": 13.5,
       "total": 152.5,
       "rank": 17,
       "finance": -3500
     },
     {
-      "alias": "Dufec",
+      "alias": "Aleš M.",
       "roundWins": 0,
       "exactDoubles": 1,
-      "playerPoints": 9.5,
-      "total": 148.5,
+      "playerPoints": 3.5,
+      "total": 152.5,
       "rank": 18,
       "finance": -3750
+    },
+    {
+      "alias": "Rommmik26",
+      "roundWins": 0,
+      "exactDoubles": 0,
+      "playerPoints": 18.5,
+      "total": 152.5,
+      "rank": 19,
+      "finance": -4000
     },
     {
       "alias": "JR",
@@ -51548,8 +51598,8 @@
       "exactDoubles": 1,
       "playerPoints": 17,
       "total": 147,
-      "rank": 19,
-      "finance": -4000
+      "rank": 20,
+      "finance": -4250
     },
     {
       "alias": "Hasťa",
@@ -51557,15 +51607,6 @@
       "exactDoubles": 1,
       "playerPoints": 15.5,
       "total": 146.5,
-      "rank": 20,
-      "finance": -4250
-    },
-    {
-      "alias": "Rommmik26",
-      "roundWins": 0,
-      "exactDoubles": 0,
-      "playerPoints": 8.5,
-      "total": 142.5,
       "rank": 21,
       "finance": -4500
     },
@@ -51636,11 +51677,11 @@
   },
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T18:34:46.800783+00:00",
-  "fingerprint": "6d63ef732970fef3d0c19976d806ab6077d2457ccba653b9d1ec96c4a04c5a2b",
+  "generatedAt": "2026-08-30T18:45:03.121322+00:00",
+  "fingerprint": "b577bbe9a79d7e05fb4743467c4da5dc67198e046db52b0d731ba47b1bb44d15",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T18:34:46.800796+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T18:45:03.121334+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
