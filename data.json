@@ -1914,6 +1914,14 @@
               "minute": "29'",
               "ownGoal": false,
               "penalty": false
+            },
+            {
+              "team": "Manchester United",
+              "scorer": "Bruno Fernandes",
+              "assist": "Matheus Cunha",
+              "minute": "40'",
+              "ownGoal": false,
+              "penalty": false
             }
           ],
           "providerId": "401879293"
@@ -51588,11 +51596,11 @@
   },
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T16:04:48.259764+00:00",
-  "fingerprint": "3f6256f69c32526ce4c31adde153d6739de1e3323c0a9d2f6113c952d90359a9",
+  "generatedAt": "2026-08-30T16:35:45.067525+00:00",
+  "fingerprint": "74c6e03ed4517cb84bcf6bb810559a9c9f9414e3f86a908e393044ac5f751a5a",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T16:04:48.259778+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T16:35:45.067537+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
