@@ -1906,7 +1906,16 @@
           "awayGoals": null,
           "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
           "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-          "goals": [],
+          "goals": [
+            {
+              "team": "Ipswich Town",
+              "scorer": "Leif Davis",
+              "assist": "Fatawu Issahaku",
+              "minute": "29'",
+              "ownGoal": false,
+              "penalty": false
+            }
+          ],
           "providerId": "401879293"
         },
         {
@@ -51579,11 +51588,11 @@
   },
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T15:04:44.479749+00:00",
-  "fingerprint": "3010f135dfc175be8d2c62081b281f93ed28c56896ae710d47c73806c71661ed",
+  "generatedAt": "2026-08-30T16:04:48.259764+00:00",
+  "fingerprint": "3f6256f69c32526ce4c31adde153d6739de1e3323c0a9d2f6113c952d90359a9",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T15:04:44.479764+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T16:04:48.259778+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
