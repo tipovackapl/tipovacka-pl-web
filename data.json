@@ -1922,6 +1922,30 @@
               "minute": "40'",
               "ownGoal": false,
               "penalty": false
+            },
+            {
+              "team": "Manchester United",
+              "scorer": "Jacob Greaves",
+              "assist": "",
+              "minute": "56'",
+              "ownGoal": true,
+              "penalty": false
+            },
+            {
+              "team": "Manchester United",
+              "scorer": "Bruno Fernandes",
+              "assist": "",
+              "minute": "61'",
+              "ownGoal": false,
+              "penalty": true
+            },
+            {
+              "team": "Manchester United",
+              "scorer": "Bruno Fernandes",
+              "assist": "",
+              "minute": "68'",
+              "ownGoal": false,
+              "penalty": false
             }
           ],
           "providerId": "401879293"
@@ -51596,11 +51620,11 @@
   },
   "missingRound1": [],
   "master": "Google Sheets",
-  "generatedAt": "2026-08-30T16:35:45.067525+00:00",
-  "fingerprint": "74c6e03ed4517cb84bcf6bb810559a9c9f9414e3f86a908e393044ac5f751a5a",
+  "generatedAt": "2026-08-30T17:04:59.297950+00:00",
+  "fingerprint": "08104c974385c4b65aec27fd826fcc7637c36c5b8e08668fdcbb4faeb894dfa2",
   "health": {
     "status": "ok",
-    "lastSuccessfulRunAt": "2026-08-30T16:35:45.067537+00:00",
+    "lastSuccessfulRunAt": "2026-08-30T17:04:59.297984+00:00",
     "footballProvider": "ESPN public football feed",
     "whatsappFile": "WhatsApp Chat - PREMIER LEAGUE 2026_2027 (3).zip",
     "whatsappLastMessageAt": "2026-08-28T20:40:01.000Z",
